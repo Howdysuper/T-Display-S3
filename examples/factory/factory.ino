@@ -473,12 +473,12 @@ void wifi_test(void)
     lv_label_set_text(log_label, text.c_str());
     Serial.println(text);
     LV_DELAY(2000);
-    text = "Connecting to Iphone ";
-    Serial.print("Connecting to Iphone");
+    text = "Connecting to ";
+    Serial.print("Connecting to ");
     text += (char *)(current_conf.sta.ssid);
     text += "\n";
     Serial.print((char *)(current_conf.sta.ssid));
-    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    // WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
     uint32_t last_tick = millis();
     bool is_smartconfig_connect = false;

@@ -1,6 +1,6 @@
 #pragma once
 
-#define WIFI_SSID                    "Iphone"
+#define WIFI_SSID                    "Phone"
 #define WIFI_PASSWORD                "EV1234567"
 
 // #define WIFI_SSID                    "Your-ssid"
